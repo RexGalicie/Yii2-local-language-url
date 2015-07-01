@@ -27,5 +27,14 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-```php
-<?= \amass\langprettyurl\AutoloadExample::widget(); ?>```
+ 'component' => [
+  .....
+     'urlManager' => [
+        'class' => 'amass\langprettyurl\UrlManager',
+		/**if you use yii2-translate-manager https://github.com/lajax/yii2-translate-manager*/
+        'allowClass' => 'amass\langprettyurl\Component',
+		/* or */
+		'languages' => ['uk' => 'uk-UA']
+     ],
+  .....
+ ]
