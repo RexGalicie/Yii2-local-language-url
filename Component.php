@@ -45,7 +45,7 @@ class Component extends \yii\base\Component{
     private function _loadLanguages(){
         $array = [];
         UrlManager::checkDependency(
-            '\lajax\translatemanager\modls\Language',
+            '\lajax\translatemanager\models\Language',
             'lajax/yii2-translate-manager',
             ""
         );
