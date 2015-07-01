@@ -1,0 +1,22 @@
+{
+    "name": "amass/local-language-url",
+    "description": "Yii2 Language Pretty Local Url",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," url"," language url"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Igor Moskal",
+            "email": "wearde.studio@gmail.com"
+        }
+    ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "lajax/yii2-translate-manager": "1.*"
+  },
+    "autoload": {
+        "psr-4": {
+            "amass\\langprettyurl\\": ""
+        }
+    }
+}
