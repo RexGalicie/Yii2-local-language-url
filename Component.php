@@ -44,8 +44,11 @@ class Component extends \yii\base\Component{
      */
     private function _loadLanguages(){
         $array = [];
-        if(!class_exists(\lajax\translatemanager\models\Language::className()))
-            throw new UnknownClassException(\lajax\translatemanager\models\Language::className().' don\'t exists check yii2-translate-manager https://github.com/lajax/yii2-translate-manager');
+        UrlManager::checkDependency(
+            '\lajax\translatemanager\modls\Language',
+            'lajax/yii2-translate-manager',
+            ""
+        );
 
         $model = Language::getLanguages(true, true);
         foreach($model as $language){

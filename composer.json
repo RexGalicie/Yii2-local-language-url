@@ -12,7 +12,8 @@
     ],
   "require": {
     "yiisoft/yii2": "*",
-    "lajax/yii2-translate-manager": "1.*"
+    "lajax/yii2-translate-manager": "1.*",
+    "codemix/yii2-localeurls": "^1.1"
   },
     "autoload": {
         "psr-4": {
