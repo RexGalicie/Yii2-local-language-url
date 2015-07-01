@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist amass/local-language-url "*"
+php composer.phar require --prefer-dist amass/local-language-url "dev-master"
 ```
 
 or add
 
 ```
-"amass/local-language-url": "*"
+"amass/local-language-url": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
