@@ -31,6 +31,7 @@ class UrlManager extends BaseUrlManager
      */
     public function init()
     {
+        parent::init();
         self::checkDependency(
             'codemix\localeurls\UrlManager',
             'codemix/yii2-localeurls',
